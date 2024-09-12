@@ -12,11 +12,11 @@ header {
     color: rgb(42, 122, 228);
 }
 
-section{
+.chamada {
     background: rgb(184, 156, 213);
     padding-bottom: 80px;
     padding-top: 80px;
-    display flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -32,10 +32,12 @@ p {
     font-size: 20px;
 }
 
-ing {
+img {
     height: 200px;
 }
 
-.categoria-video {
-    display flex;
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
